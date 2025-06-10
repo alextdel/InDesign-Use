@@ -1,7 +1,6 @@
 ---
 tags: [accessibility, InDesign, pdf-export, adobe-pdf, accessibility-options]
 ---
-
 # PDF Export for Accessibility
 
 ← [[05-Reading-Order]] | Next: [[07-Validation-Testing]] →

@@ -1,19 +1,29 @@
 ---
 tags: [accessibility, InDesign, document-setup, properties, metadata]
 ---
-# 02-Document-Setup.md
-
+---
+tags: [accessibility, InDesign, document-setup, properties, metadata]
+---
 # Document Setup for Accessibility
 
+← [[01-InDesign-Setup]] | Next: [[03-Styles-and-Tags]] →
+
 ## Quick Reference
-- Create new document with appropriate settings
-- Set document information via File > File Info
-- Configure language settings for content
-- Establish page properties for export compatibility
 
-## New Document Creation
+Document setup checklist:
+- [ ] New document created with appropriate page setup
+- [ ] Document metadata completed via File > File Info
+- [ ] Document language set correctly
+- [ ] Master pages configured (if used)
+- [ ] Document ready for content creation
 
-### Step-by-step: Create Accessible Document Foundation
+**Time estimate**: 10-15 minutes
+
+## Complete Document Setup Guide
+
+### New Document Creation
+
+#### Step-by-step: Create Accessible Document Foundation
 
 1. **Launch InDesign and Create New Document**
    - File → New → Document
@@ -33,14 +43,11 @@ tags: [accessibility, InDesign, document-setup, properties, metadata]
 
 4. **Click "Create"**
 
-**What Success Looks Like:**
-- New document opens with configured page layout
-- Margins and guides are visible
-- Document ready for content and accessibility setup
+**What success looks like**: New document opens with configured page layout, margins and guides are visible, document ready for content and accessibility setup.
 
-## Document Information and Metadata
+### Document Information and Metadata
 
-### Step-by-step: Configure Document Metadata for Accessibility
+#### Step-by-step: Configure Document Metadata for Accessibility
 
 1. **Access Document Information**
    - File → File Info
@@ -78,15 +85,11 @@ tags: [accessibility, InDesign, document-setup, properties, metadata]
 
 4. **Click "OK" to save metadata**
 
-**What Success Looks Like:**
-- Document properties saved and accessible via File > File Info
-- Metadata will carry through to PDF export
-- Screen readers can access document information
-- Professional document identification established
+**What success looks like**: Document properties saved and accessible via File > File Info, metadata will carry through to PDF export, screen readers can access document information.
 
-## Language Configuration
+### Language Configuration
 
-### Step-by-step: Set Document Language
+#### Step-by-step: Set Document Language
 
 1. **Set Default Document Language**
    - With no text selected: Character panel → Language dropdown
@@ -100,14 +103,11 @@ tags: [accessibility, InDesign, document-setup, properties, metadata]
    - Ensure correct language appears in Language field
    - This affects hyphenation and spell-checking
 
-**What Success Looks Like:**
-- Correct language selected in Character panel
-- Proper hyphenation and spell-checking active
-- Foundation set for accessible text handling
+**What success looks like**: Correct language selected in Character panel, proper hyphenation and spell-checking active, foundation set for accessible text handling.
 
-## Master Page Considerations
+### Master Page Considerations
 
-### Step-by-step: Configure Master Pages for Accessibility
+#### Step-by-step: Configure Master Pages for Accessibility
 
 Create a page type for each distinct page-type required. Generally one master page style will be needed for the page containing the H1 tag and then at least one other for the remaining pages.
 
@@ -127,47 +127,50 @@ Example: A document needs to have the title on each page in a banner. In this ca
    - Set appropriate margins and column guides
    - Return to document pages when complete
 
-**What Success Looks Like:**
-- Master pages configured with consistent elements
-- Automatic page numbering in place
-- Text frames properly structured for content flow
+**What success looks like**: Master pages configured with consistent elements, automatic page numbering in place, text frames properly structured for content flow.
 
-## Validation Checkpoint
+## What Success Looks Like
 
-### Verify Document Foundation
-- [ ] New document created with appropriate page setup
-- [ ] Document metadata completed via File > File Info
-- [ ] Document language set correctly
-- [ ] Master pages configured (if used)
-- [ ] Document ready for content creation
-
-### Common Problems to Check
-- **Missing metadata**: File > File Info fields left blank
-- **Wrong language setting**: Affects accessibility and hyphenation
-- **Inappropriate page setup**: Margins too small for accessible reading
-- **No master page setup**: Inconsistent page elements
-
-## Next Steps
-- Proceed to [[03-Styles-and-Tags]] to create paragraph and character styles
-- Set up style-to-tag mappings for export accessibility
-- Begin content creation with proper semantic structure
+Your document should now have:
+- Proper document foundation with accessibility-friendly page setup
+- Complete metadata that will carry through to PDF export
+- Correct language settings for proper pronunciation and hyphenation
+- Master pages configured for consistent, accessible page elements
+- Document ready to receive semantic styles and structured content
 
 ## Troubleshooting
 
-### "Language not available" Error
-- Install additional language dictionaries via Creative Cloud
-- Check Edit > Preferences > Dictionary for available languages
+**Problem**: "Language not available" Error
+**Solution**: Install additional language dictionaries via Creative Cloud. Check Edit > Preferences > Dictionary for available languages.
 
-### Master Text Frame Issues
-- Can be enabled after document creation via Layout > Margins and Columns
-- Select "Master Text Frame" checkbox and apply
+**Problem**: Master Text Frame Issues
+**Solution**: Can be enabled after document creation via Layout > Margins and Columns. Select "Master Text Frame" checkbox and apply.
 
-### Metadata Not Appearing in Export
-- Ensure File > File Info is completed before export
-- Check PDF export settings include document information
+**Problem**: Metadata Not Appearing in Export
+**Solution**: Ensure File > File Info is completed before export. Check PDF export settings include document information.
 
-## Time Estimate
-- New document setup: 2-3 minutes
-- Document metadata configuration: 3-5 minutes
-- Master page setup: 5-7 minutes
-- Total: 10-15 minutes
+**Problem**: Cannot access File Info dialog
+**Solution**: Ensure document is saved first. Some metadata fields may not be accessible for unsaved documents.
+
+**Problem**: Master page elements appearing on document pages
+**Solution**: Check that master page items are properly positioned and not overridden on document pages unless intentional.
+
+**Problem**: Page margins too small for accessibility
+**Solution**: Minimum 12mm margins recommended for print accessibility. Adjust via Layout > Margins and Columns.
+
+## Validation Checkpoint
+
+Before proceeding, verify:
+- [ ] New document created with appropriate page setup
+- [ ] Margins set to minimum 12mm for accessibility
+- [ ] Document metadata completed via File > File Info (Title, Author, Description, Keywords)
+- [ ] Document language set to "English: Australian"
+- [ ] Master pages configured with consistent elements (if used)
+- [ ] Automatic page numbering in place (if required)
+- [ ] Document ready for semantic style creation
+
+## Next Steps
+
+With your accessible document foundation established, proceed to [[03-Styles-and-Tags]] to create the semantic structure system that will make your content accessible to screen readers.
+
+**Previous**: [[01-InDesign-Setup]] | **Next**: [[03-Styles-and-Tags]]
