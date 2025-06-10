@@ -30,7 +30,7 @@ Style system checklist:
 #### Understanding Document Heading Hierarchy
 **Critical accessibility principle**: Proper heading structure provides navigation for screen readers.
 
-**Document structure from [[02-Document-Setup#Accessible Page Templates and Heading Hierarchy]]**:
+**Document structure from [[02-Document-Setup#Document Information and Metadata]]**:
 - **H1**: Document main title (cover page only - one per document)
 - **H2**: Major sections (Executive Summary, Financial Results, etc.)
 - **H3**: Subsections within H2 sections
@@ -49,10 +49,8 @@ Style system checklist:
 
 2. **General settings**:
    - **Style Name**: Heading 1
-   - **Based On**: [No Paragraph Style]
+   - **Based On**: `[No Paragraph Style]
    - **Next Style**: Body Text (for any subtitle text)
-
-![[ParagraphStyleEdit1.png|500]]
 
 3. **Basic Character Formats**:
    - **Font Family**: Choose professional font (Arial, Calibri, or corporate font)
@@ -62,6 +60,7 @@ Style system checklist:
    - **Case**: Normal
    - **Ligatures**: Leave unchecked for accessibility (avoid automatic character combinations)
 
+![[ParagraphStyleEdit1.png|500]]
 4. **Advanced Character Formats**:
    - **Language**: English: Australian
 
@@ -158,7 +157,7 @@ Create a variant for paragraphs following headings:
 ### List Styles
 
 #### Understanding InDesign List Creation
-InDesign automatically creates semantic list structure when you use the built-in Bullets and Numbering feature. The export tag on list paragraph styles should typically be P or [Automatic] - InDesign handles the UL/OL structure.
+InDesign automatically creates semantic list structure when you use the built-in Bullets and Numbering feature. The export tag on list paragraph styles should typically be P or `[Automatic]` - InDesign handles the UL/OL structure.
 
 #### Bulleted List Style
 1. **Create style**:
@@ -175,7 +174,7 @@ InDesign automatically creates semantic list structure when you use the built-in
    - Tab Position: 6mm
 
 3. **Export Tagging**:
-   - Tag: P or [Automatic] (InDesign handles list structure automatically)
+   - Tag: P or `[Automatic]` (InDesign handles list structure automatically)
 
 **Note**: The semantic list structure (UL) is created by InDesign's native Bullets and Numbering feature, not the export tag.
 
@@ -194,7 +193,7 @@ InDesign automatically creates semantic list structure when you use the built-in
    - Tab Position: 6mm
 
 3. **Export Tagging**:
-   - Tag: P or [Automatic] (InDesign handles list structure automatically)
+   - Tag: P or `[Automatic]` (InDesign handles list structure automatically)
 
 **Note**: The semantic list structure (OL) is created by InDesign's native Bullets and Numbering feature, not the export tag.
 
@@ -227,7 +226,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
 ##### Content Image Style
 1. **Open Object Styles panel**:
    - Window → Styles → Object Styles
-   - Panel shows default [Basic Graphics Frame] and [Basic Text Frame]
+   - Panel shows default `[Basic Graphics Frame]` and `[Basic Text Frame]`
 
 2. **Create new object style**:
    - Click Create New Style button (page icon) at bottom of panel
@@ -235,7 +234,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
 
 3. **Configure Basic Attributes**:
    - **Style Name**: Content Image
-   - **Based On**: [None]
+   - **Based On**: `[None]`
    
 4. **Set Frame Fitting Options** (optional but recommended):
    - Check "Frame Fitting Options" in left column
@@ -275,12 +274,12 @@ Object styles ensure consistent formatting and proper export tagging for images,
 
 1. **Create new object style**:
    - **Style Name**: Background Element
-   - **Based On**: [None]
+   - **Based On**: `[None]`
 
 2. **Configure basic attributes**:
    - Check "Fill" in left column
    - You can set default colour if desired
-   - Or leave as [None] to apply colours individually
+   - Or leave as `[None]` to apply colours individually
 
 3. **Configure Export Tagging**:
    - **EPUB and HTML**:
@@ -299,7 +298,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
 ##### Body Text Frame Style
 1. **Create new object style**:
    - **Style Name**: Body Text Frame
-   - **Based On**: [Basic Text Frame]
+   - **Based On**: `[Basic Text Frame]`
 
 2. **Configure Text Frame Options**:
    - Check "Text Frame General Options" in left column
@@ -314,7 +313,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
 ##### Sidebar Frame Style
 1. **Create new object style**:
    - **Style Name**: Sidebar Frame
-   - **Based On**: [Basic Text Frame]
+   - **Based On**: `[Basic Text Frame]`
 
 2. **Configure appearance**:
    - Check "Fill" in left column
@@ -333,7 +332,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
 1. **Select object** with Selection Tool (V)
 2. **Apply style** using one of these methods:
    - Click style name in Object Styles panel
-   - Right-click object → Apply Object Style → [Style Name]
+   - Right-click object → Apply Object Style → `[Style Name]`
    - Alt-click (Windows) or Option-click (Mac) style to apply without clearing overrides
 
 #### Object Style Best Practices
@@ -343,7 +342,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
    - Group related styles (Image-Content, Image-Decorative)
    - Be consistent across documents
 
-2. **Style organization**:
+1. **Style organisation**:
    - Create style groups for different object types
    - Right-click in panel → New Style Group
    - Name groups clearly (Images, Backgrounds, Frames)
@@ -389,9 +388,9 @@ Object styles ensure consistent formatting and proper export tagging for images,
    - Every style should have appropriate tag assigned
 	   - H1, H2, H3, H4, H5, H6 for headings
 	  - P for body text paragraphs
-	  - P or [Automatic] for list styles (InDesign handles list structure automatically)
+	  - P or `[Automatic]` for list styles (InDesign handles list structure automatically)
 	  - Artifact for decorative elements only
-  - Avoid "[Automatic]" for non-list styles
+  - Avoid "`[Automatic]`" for non-list styles
 
 ![[EditAllTags 1.png|500]]
 
@@ -400,7 +399,7 @@ Object styles ensure consistent formatting and proper export tagging for images,
   - Double-click any paragraph style
   - Click "Export Tagging" in left panel
   - Verify correct tag is assigned
-  - Set tag if "[Automatic]" is selected
+  - Set tag if "`[Automatic]`" is selected
 
 #### Verifying Object Style Settings
 
@@ -463,13 +462,13 @@ Before proceeding, verify:
 - [ ] **Font sizes create clear visual hierarchy** (H1 largest → H6 smallest)
 - [ ] **No heading levels skipped** in planned document structure
 - [ ] Body text styles have P tags
-- [ ] List styles use P tags or [Automatic] with proper Bullets and Numbering applied
+- [ ] List styles use P tags or `[Automatic]` with proper Bullets and Numbering applied
 - [ ] Character styles available for emphasis
 - [ ] **Object styles created for all image types**
 - [ ] **Content Image style has Figure tag**
 - [ ] **Decorative Image style has Artifact tag**
 - [ ] **Background Element style has Artifact tag**
-- [ ] No non-list styles show "[Automatic]" in Edit All Export Tags dialog
+- [ ] No non-list styles show "`[Automatic]`" in Edit All Export Tags dialog
 - [ ] Style hierarchy is logical and consistent
 
 ## Advanced Tips

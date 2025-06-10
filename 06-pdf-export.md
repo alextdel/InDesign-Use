@@ -49,15 +49,19 @@ Before exporting, verify your document is ready:
 
 #### Adobe PDF Preset
 1. **Preset selection**:
-   - **Adobe PDF Preset**: [High Quality Print] or [PDF/X-4:2008]
+   - **Adobe PDF Preset**: `[High Quality Print]` or `[PDF/X-4:2008]`
    - Avoid "Smallest File Size" - compromises accessibility
    - Custom settings provide most control
+
 ![[ExportQuality1.png|500]]
+
 1. **Compatibility**:
    - **Compatibility**: Acrobat 7 (PDF 1.6) or higher
    - Higher versions support better accessibility features
    - Acrobat 2017 (PDF 1.7) recommended for current accessibility standards
+
 ![[ExportCompatibility.png|500]]
+
 #### Pages and Spreads
 1. **Pages settings**:
    - **All Pages**: Usually selected for complete document
@@ -71,6 +75,7 @@ Before exporting, verify your document is ready:
 **Why avoid spreads**: Screen readers process single pages more effectively than spreads.
 
 **Why include hyperlinks**: Maintains navigation structure and cross-references that screen readers rely on for document navigation.
+
 ![[ExportSettings1.svg|550]]
 ### Compression Settings
 
@@ -87,6 +92,7 @@ Before exporting, verify your document is ready:
   > **Note:** I use 300ppi **but** ensure no upscaling - i.e. dragging images bigger than they are captured.
 
 **Accessibility consideration**: Poor image quality can make charts and diagrams unreadable for users with low vision.
+
 ![[ExportCompressionSettings.png|550]]
 ### Marks and Bleeds
 
@@ -94,6 +100,7 @@ Before exporting, verify your document is ready:
 1. **Printer's Marks**: All off (unless printing)
 2. **Bleed and Slug**: Use document bleed settings
 3. **Include**: Structure for accessibility (checked)
+
 ![[MarksAndBleeds.png|500]]
 ### Output Settings
 

@@ -57,11 +57,11 @@ tags: [accessibility, InDesign, navigation, workflow]
 ### Quick Start Path (Experienced Users)
 If you're familiar with InDesign but new to accessibility:
 1. [[01-InDesign-Setup#Essential Panels]] - Get the right panels visible
-2. [[03-Styles-and-Tags#Export Tags Quick Setup]] - Add accessibility tags to existing styles
-3. [[04-Content-Creation#Alt Text Process]] - Handle images and graphics
-4. [[05-Reading-Order#Articles Panel Workflow]] - Set reading order
-5. [[06-PDF-Export#Accessibility Settings]] - Export correctly
-6. [[07-Validation-Testing#PAC 2024 Quick Check]] - Validate results
+2. [[03-Styles-and-Tags#Export Tags Verification]] - Add accessibility tags to existing styles
+3. [[04-Content-Creation#Adding Images with Proper Alt-Text]] - Handle images and graphics
+4. [[05-Reading-Order#Articles Panel Setup]] - Set reading order
+5. [[06-PDF-Export#Essential Accessibility Options]] - Export correctly
+6. [[07-Validation-Testing#PAC 2024 Validation Process]] - Validate results
 
 ### Complete Learning Path (New to InDesign)
 Work through each guide in sequence:
@@ -185,42 +185,42 @@ Work through each guide in sequence:
 
 ### **Existing Document Remediation**
 If you're making an existing InDesign document accessible:
-1. [[03-Styles-and-Tags#Retrofitting Existing Styles]] - Add export tags to current styles
-2. [[04-Content-Creation#Alt Text Audit]] - Add missing alt text
-3. [[05-Reading-Order#Checking Existing Order]] - Verify reading sequence
+1. [[03-Styles-and-Tags#Style Organisation]] - Add export tags to current styles
+2. [[04-Content-Creation#Adding Images with Proper Alt-Text]] - Add missing alt text
+3. [[05-Reading-Order#Troubleshooting]] - Verify reading sequence
 4. [[06-PDF-Export]] - Export with accessibility
 5. [[07-Validation-Testing]] - Test and fix issues
 
 ### **Template Creation**
 If you're building templates for others to use:
-1. [[02-Document-Setup#Template Considerations]] - Document setup for templates
-2. [[03-Styles-and-Tags#Template Style Systems]] - Complete style libraries
-3. [[04-Content-Creation#Template Guidelines]] - Usage instructions
-4. Focus on [[07-Validation-Testing#Template Testing]] - Ensure template produces accessible results
+1. [[02-Document-Setup#Master Page Considerations]] - Document setup for templates
+2. [[03-Styles-and-Tags#Style Organisation]] - Complete style libraries
+3. [[04-Content-Creation#Advanced Content Tips]] - Usage instructions
+4. Focus on [[07-Validation-Testing#Practice Exercises]] - Ensure template produces accessible results
 
 ### **Complex Layout Documents**
 For documents with multiple columns, sidebars, callouts:
 1. Complete standard workflow through [[04-Content-Creation]]
-2. Focus heavily on [[05-Reading-Order#Complex Layout Management]]
-3. Use [[07-Validation-Testing#Screen Reader Testing]] extensively
+2. Focus heavily on [[05-Reading-Order#Common Mistakes to Avoid]]
+3. Use [[07-Validation-Testing#NVDA Screen Reader Testing]] extensively
 
 ## Troubleshooting Quick Links
 
 ### Common Problems and Solutions
-- **Styles not exporting correctly:** [[03-Styles-and-Tags#Export Tag Troubleshooting]]
-- **Images missing alt text:** [[04-Content-Creation#Alt Text Issues]]
-- **Wrong reading order:** [[05-Reading-Order#Order Problems]]
-- **PDF export fails:** [[06-PDF-Export#Export Troubleshooting]]
-- **PAC 2024 validation errors:** [[07-Validation-Testing#Common PAC Errors]]
-- **Acrobat preflight failures:** [[07-Validation-Testing#Preflight Troubleshooting]]
-- **Screen reader issues:** [[07-Validation-Testing#NVDA Troubleshooting]]
+- **Styles not exporting correctly:** [[03-styles-and-tags#Troubleshooting]]
+- **Images missing alt text:** [[04-Content-Creation#Alt-Text Problems]]
+- **Wrong reading order:** [[05-Reading-Order#Troubleshooting]]
+- **PDF export fails:** [[06-PDF-Export#Troubleshooting]]
+- **PAC 2024 validation errors:** [[07-Validation-Testing#Common PAC 2024 Errors and Fixes]]
+- **Acrobat preflight failures:** [[07-Validation-Testing#Common Preflight Accessibility Fixes]]
+- **Screen reader issues:** [[07-Validation-Testing#NVDA Screen Reader Testing]]
 
 ### Emergency Fixes
 If you have a deadline and need quick fixes:
-1. [[07-Validation-Testing#Acrobat Pro Quick Fixes]] - Fix issues in exported PDF using accessibility checker
-2. [[07-Validation-Testing#Preflight Quick Fixes]] - Use preflight tool for rapid compliance checking
-3. [[04-Content-Creation#Alt Text Batch Process]] - Quickly add alt text
-4. [[06-PDF-Export#Minimum Accessibility Settings]] - Basic export settings
+1. [[07-Validation-Testing#Common Acrobat Pro Quick Fixes]] - Fix issues in exported PDF using accessibility checker
+2. [[07-Validation-Testing#Common Preflight Accessibility Fixes]] - Use preflight tool for rapid compliance checking
+3. [[04-Content-Creation#Adding Images with Proper Alt-Text]] - Quickly add alt text
+4. [[06-PDF-Export#Essential Accessibility Options]] - Basic export settings
 
 ## Success Checkpoints
 

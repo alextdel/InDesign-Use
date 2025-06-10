@@ -162,7 +162,7 @@ Creating accessible hyperlinks requires attention to link text, destination clar
    - **New Hyperlink dialog options**:
      - **Link To**: URL
      - **URL**: Enter complete web address (including https://)
-     - **Character Style**: [None] unless specific formatting needed
+     - **Character Style**: `[None]` unless specific formatting needed
 
 ![[HyperlinkAdd2.png|550]]
 2. **Hyperlink appearance settings** (for accessibility):
