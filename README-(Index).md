@@ -14,7 +14,7 @@
 ![[InDesignLogo.png|60]]
 
 This manual takes a technology savvy user through the processes and stages required to set up InDesign for the creation of accessible PDF documents, create a document, check, export and validate a PDF for accessibility.
-### [Start here](obsidian://open?vault=InDesign-Use&file=Indesign%20Manual%2F00-navigation-guide) 
+### [[00-navigation-guide|START HERE]]
 
 ---
 ## Moodle Installation Maintenance & Update Guide
@@ -23,7 +23,8 @@ This manual takes a technology savvy user through the processes and stages requi
 
 This guide document covers the process of checking Moodle installation backups and updating the various Tiddalik and Nahri Moodle installations.
 
-### [Start here](obsidian://open?vault=InDesign-Use&file=Moodle%20Administration%2F00-Moodle-maintenance-guide) 
+### [[00-Moodle-maintenance-guide|START HERE]]
+
 ---
 ---
 
