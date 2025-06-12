@@ -19,6 +19,8 @@ This manual takes a technology savvy user through the processes and stages requi
 ---
 ## Moodle Installation Maintenance & Update Guide
 
+![[moodleIcon.png|60]]
+
 This guide document covers the process of checking Moodle installation backups and updating the various Tiddalik and Nahri Moodle installations.
 
 ### [Start here](obsidian://open?vault=InDesign-Use&file=Moodle%20Administration%2F00-Moodle-maintenance-guide) 

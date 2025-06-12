@@ -5,8 +5,14 @@ tags: [Moodle, update, git, plugins, cli, guide]
 
 The following guide supports the backup, update and upgrade processes required for Tiddalik and Nahri's LMS systems. To perform server processes you should be able to access the command line through putty or the cli using ssh. All credentials for servers and virtual machines are in the company Bitwarden app.
 
-PDF version is available here - [[Tiddalik Nahri Learn Moodle update upgrade backup maintenance.pdf]]
+PDF version is available here
+ - [[Tiddalik Nahri Learn Moodle update upgrade backup maintenance.pdf]]
 
+For more information about Moodle see
+- [Moodle documentation website](https://docs.moodle.org/500/en/Main_page) - check version number dropdown.
+  ![[MoodleVersionDropdown.png|200]]
+- [Moodle forums](https://moodle.org/course/view.php?id=5)
+---
 ## System Overview
 
 ### Moodle Installations
@@ -22,16 +28,37 @@ PDF version is available here - [[Tiddalik Nahri Learn Moodle update upgrade bac
 - **Backup Script**: `mdl_bu.sh` (automated daily via cron)
   - See https://github.com/alextdel/mdl_bu_script
 
+### Moodle Theme: Edwiser
+Currently, both Tiddalik Learn and Nahri Learn use the Edwiser theme (RemUI) and the associated suite of plugins (most but not all).
+
+**See the [Edwiser site](https://edwiser.org/) for:**
+- Licence details
+	  Tiddalik owns the license type - 'Edwiser Course Creator Suite - 1 Business (Lifetime License)'
+	  ![[EdwiserThemeList.png|400]]
+- Download of new versions of the Edwiser theme 'RemUI'
+	==**Note:** Edwiser login user is currently alextdel, this should be changed to a Tiddalik system user - the contact email address also needs changing.==
+
+**See Bitwarden for:**
+- Edwiser login details
+- Licence details (copy of that found online) 
+
+#### Edwiser RemUI Theme and Plugin updates
+The update/install process for the main RemUI system is detailed in the following PDF (downloaded 12 June 2025) but is basically an ordered (see document) install of multiple plugins through the Moodle web interface.
+- [[RemUI-Installation-Guide.pdf]]
+> **Note:** A server CLI installation of these plugins with the website in maintenance mode, is possible but I haven't used this.
+
+---
 ## Pre-Update Checklist
 
 ### Performance Monitoring
 Regularly monitor server capacity:
-- Page load times (even with minimal users this is currently slow - 12/6/2025)
+- Page load times (even with minimal users this is currently slow - 12 June 2025)
 - CPU utilisation
 - Memory usage
 - Disk capacity
 - Consider dedicated Moodle hosting for future high-traffic scenarios
 
+---
 ## Step-by-Step Update Procedure
 
 ### 1. Check Active Users
@@ -205,6 +232,7 @@ php admin/cli/cron.php --help
   - Payment gateways (where applicable)
   - Theme functionality
 
+---
 ## Troubleshooting
 
 ### Common Issues
@@ -218,6 +246,7 @@ php admin/cli/cron.php --help
 - **Plugin issues**: Access database directly to disable plugins
 - **Maintenance mode stuck**: Use CLI to disable: `php admin/cli/maintenance.php --disable`
 
+---
 ## Important File Locations
 
 ### Configuration Files
@@ -241,6 +270,7 @@ public_html/
 - Domain admin usernames and passwords
 - Database connection details – found in each Moodle instances `config.php` within the `public_html` directory.
 
+---
 ## Regular Maintenance Schedule
 
 **Note**: Ensure that you are receiving Moodle update emails – requires registering the site. See – **Site administration → General → Registration**.
@@ -263,3 +293,5 @@ public_html/
 - Full system backup verification
 - Staging environment testing
 - Team coordination for testing schedule
+---
+---
