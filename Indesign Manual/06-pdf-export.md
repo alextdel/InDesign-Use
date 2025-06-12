@@ -3,7 +3,7 @@ tags: [accessibility, InDesign, pdf-export, adobe-pdf, accessibility-options]
 ---
 # PDF Export for Accessibility
 
-← [[05-Reading-Order]] | Next: [[07-Validation-Testing]] →
+← [[05-reading-order]] | Next: [[07-validation-testing]] →
 
 ## Quick Reference
 
@@ -142,6 +142,7 @@ Before exporting, verify your document is ready:
    - Location: Window → Articles
    - Set up reading order before export
    - InDesign uses this automatically if Articles exist
+     - See also [[05-reading-order#Articles Panel Setup]]
 
 2. **Object Export Options** (alt-text, etc.):
    - Location: Object → Object Export Options
@@ -303,6 +304,6 @@ After export, verify:
 - Maintain export settings documentation for team use
 ## Next Steps
 
-With your accessible PDF successfully exported, proceed to [[07-Validation-Testing]] to learn comprehensive testing methods that verify your PDF meets accessibility standards and works properly with assistive technologies.
+With your accessible PDF successfully exported, proceed to [[07-validation-testing]] to learn comprehensive testing methods that verify your PDF meets accessibility standards and works properly with assistive technologies.
 
-**Previous**: [[05-Reading-Order]] | **Next**: [[07-Validation-Testing]]
+**Previous**: [[05-reading-order]] | **Next**: [[07-validation-testing]]

@@ -3,7 +3,7 @@ tags: [accessibility, InDesign, content, alt-text, images, lists, hyperlinks]
 ---
 # Content Creation for Accessible PDFs
 
-← [[03-Styles-and-Tags]] | Next: [[05-Reading-Order]] →
+← [[03-styles-and-tags]] | Next: [[05-reading-order]] →
 
 ## Quick Reference
 
@@ -490,6 +490,6 @@ Before proceeding, verify:
 
 ## Next Steps
 
-With accessible content properly created and formatted, proceed to [[05-Reading-Order]] to organise the content flow and ensure logical reading sequence for screen readers.
+With accessible content properly created and formatted, proceed to [[05-reading-order]] to organise the content flow and ensure logical reading sequence for screen readers.
 
-**Previous**: [[03-Styles-and-Tags]] | **Next**: [[05-Reading-Order]]
+**Previous**: [[03-styles-and-tags]] | **Next**: [[05-reading-order]]

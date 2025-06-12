@@ -3,7 +3,7 @@ tags: [accessibility, InDesign, styles, export-tags, semantic-structure]
 ---
 # Styles and Export Tags for Semantic Structure
 
-← [[02-Document-Setup]] | Next: [[04-Content-Creation]] →
+← [[02-document-setup]] | Next: [[04-content-creation]] →
 
 ## Quick Reference
 
@@ -30,7 +30,7 @@ Style system checklist:
 #### Understanding Document Heading Hierarchy
 **Critical accessibility principle**: Proper heading structure provides navigation for screen readers.
 
-**Document structure from [[02-Document-Setup#Document Information and Metadata]]**:
+**Recommended document structure:**:
 - **H1**: Document main title (cover page only - one per document)
 - **H2**: Major sections (Executive Summary, Financial Results, etc.)
 - **H3**: Subsections within H2 sections
@@ -350,7 +350,8 @@ Object styles ensure consistent formatting and proper export tagging for images,
 3. **Important limitations**:
    - **Object styles CANNOT set alt-text**
    - Alt-text must be added individually via Object Export Options
-   - Object styles CAN set the export tag (Figure, Artifact, etc.)
+   - Object styles CAN set the export tag (Figure, Artifact, etc.) 
+     - See also [[04-content-creation#Adding Images with Proper Alt-Text]]
    - This determines how the object is treated in the PDF structure
 
 ![[Object Export Options 1.png|550]]
@@ -457,19 +458,19 @@ Your Object Styles panel should show:
 Before proceeding, verify:
 - [ ] **Heading 1 style created for document main title** (cover page only)
 - [ ] **Heading 2-6 styles created for section hierarchy** 
-- [ ] **Heading hierarchy follows document structure** from [[02-Document-Setup]]
+- [ ] **Heading hierarchy follows document structure** from [[02-document-setup]]
 - [ ] **All heading styles have proper export tags** (H1-H6)
 - [ ] **Font sizes create clear visual hierarchy** (H1 largest → H6 smallest)
 - [ ] **No heading levels skipped** in planned document structure
-- [ ] Body text styles have P tags
-- [ ] List styles use P tags or `[Automatic]` with proper Bullets and Numbering applied
-- [ ] Character styles available for emphasis
+- [ ] **Body text styles have P tags**
+- [ ] **List styles use P tags or `[Automatic]` with proper Bullets and Numbering applied**
+- [ ] **Character styles available for emphasis**
 - [ ] **Object styles created for all image types**
 - [ ] **Content Image style has Figure tag**
 - [ ] **Decorative Image style has Artifact tag**
 - [ ] **Background Element style has Artifact tag**
-- [ ] No non-list styles show "`[Automatic]`" in Edit All Export Tags dialog
-- [ ] Style hierarchy is logical and consistent
+- [ ] **No non-list styles show "`[Automatic]`" in Edit All Export Tags dialog**
+- [ ] **Style hierarchy is logical and consistent**
 
 ## Advanced Tips
 
@@ -487,6 +488,6 @@ Before proceeding, verify:
 
 ## Next Steps
 
-With your complete semantic style system established (including object styles), proceed to [[04-Content-Creation]] to learn how to apply these styles and add accessible content to your document.
+With your complete semantic style system established (including object styles), proceed to [[04-content-creation]] to learn how to apply these styles and add accessible content to your document.
 
-**Previous**: [[02-Document-Setup]] | **Next**: [[04-Content-Creation]]
+**Previous**: [[02-document-setup]] | **Next**: [[04-content-creation]]

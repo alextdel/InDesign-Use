@@ -6,7 +6,7 @@ tags: [accessibility, InDesign, document-setup, properties, metadata]
 ---
 # Document Setup for Accessibility
 
-← [[01-InDesign-Setup]] | Next: [[03-Styles-and-Tags]] →
+← [[01-indesign-setup]] | Next: [[03-styles-and-tags]] →
 
 ## Quick Reference
 
@@ -171,6 +171,6 @@ Before proceeding, verify:
 
 ## Next Steps
 
-With your accessible document foundation established, proceed to [[03-Styles-and-Tags]] to create the semantic structure system that will make your content accessible to screen readers.
+With your accessible document foundation established, proceed to [[03-styles-and-tags]] to create the semantic structure system that will make your content accessible to screen readers.
 
-**Previous**: [[01-InDesign-Setup]] | **Next**: [[03-Styles-and-Tags]]
+**Previous**: [[01-indesign-setup]] | **Next**: [[03-styles-and-tags]]

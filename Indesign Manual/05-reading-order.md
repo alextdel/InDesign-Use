@@ -3,7 +3,7 @@ tags: [accessibility, InDesign, reading-order, articles-panel, text-threading]
 ---
 # Reading Order and Content Flow
 
-← [[04-Content-Creation]] | Next: [[06-PDF-Export]] →
+← [[04-content-creation]] | Next: [[06-pdf-export]] →
 
 ## Quick Reference
 
@@ -245,6 +245,6 @@ Read through your Articles panel from top to bottom. This is EXACTLY how a scree
 
 ## Next Steps
 
-With reading order properly established through the Articles panel, proceed to [[06-PDF-Export]] to learn the specific export settings that preserve your accessibility work in the final PDF.
+With reading order properly established through the Articles panel, proceed to [[06-pdf-export]] to learn the specific export settings that preserve your accessibility work in the final PDF.
 
-**Previous**: [[04-Content-Creation]] | **Next**: [[06-PDF-Export]]
+**Previous**: [[04-content-creation]] | **Next**: [[06-pdf-export]]

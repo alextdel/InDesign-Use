@@ -3,7 +3,7 @@ tags: [accessibility, validation, testing, PAC-2024, acrobat-pro, NVDA, screen-r
 ---
 # Validation and Testing for Accessible PDFs
 
-← [[06-PDF-Export]] | [[00-Navigation-Guide]] →
+← [[06-pdf-export]] | [[00-navigation-guide]] →
 
 ## Quick Reference
 
@@ -485,6 +485,10 @@ The report provides an overview of results:
    - Choose installation type (installed version recommended)
    - Complete setup process
 
+![[NVDA Settings.png|500]]
+	Settings for NVDA (Windows Version). 
+	****Note:** may vary depending on NVDA version*.
+
 3. **Basic NVDA operation**:
    - NVDA starts speaking immediately when launched
    - Press Insert+Q to quit NVDA
@@ -760,8 +764,8 @@ Congratulations! You've successfully created an accessible PDF using InDesign an
 
 ## Return to Workflow
 
-**For next project**: Return to [[00-Navigation-Guide]] to repeat the process
+**For next project**: Return to [[00-navigation-guide]] to repeat the process
 **For ongoing work**: Use this comprehensive validation process for all PDF publications
 **For team training**: Share this guide and establish consistent workflows using all available tools
 
-**Previous**: [[06-PDF-Export]] | **Home**: [[00-Navigation-Guide]]
+**Previous**: [[06-pdf-export]] | **Home**: [[00-navigation-guide]]

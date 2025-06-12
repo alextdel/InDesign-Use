@@ -4,7 +4,7 @@ tags: [accessibility, InDesign, setup, configuration]
 
 # InDesign Setup for Accessible PDF Creation
 
-← [[00-Navigation-Guide]] | Next: [[02-Document-Setup]] →
+← [[00-navigation-guide]] | Next: [[02-document-setup]] →
 
 ## Quick Reference
 
@@ -73,7 +73,7 @@ Essential setup checklist:
 2. Keep panel accessible for master page work
 3. Used for applying different page templates (cover page vs content pages)
 
-**What success looks like**: Panel shows master pages and document pages, ready for accessibility template setup in [[02-Document-Setup]].
+**What success looks like**: Panel shows master pages and document pages, ready for accessibility template setup in [[02-document-setup]].
 #### Tags Panel
 **Purpose**: Managing export tags for PDF structure
 
@@ -170,6 +170,6 @@ Before proceeding, verify:
 
 ## Next Steps
 
-With InDesign properly configured, proceed to [[02-Document-Setup]] to learn how to create accessible document foundations.
+With InDesign properly configured, proceed to [[02-document-setup]] to learn how to create accessible document foundations.
 
-**Previous**: [[00-Navigation-Guide]] | **Next**: [[02-Document-Setup]]
+**Previous**: [[00-navigation-guide]] | **Next**: [[02-document-setup]]
